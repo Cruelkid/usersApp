@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Wrapper from "../Helpers/Wrapper";
 import Button from "../UI/Button";
 import Card from "../UI/Card";
-import ErrorModal from "../UI/Error.Modal";
+import ErrorModal from "../UI/ErrorModal";
 import styles from "./AddUser.module.css";
 
 const AddUser = (props) => {
