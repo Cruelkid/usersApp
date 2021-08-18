@@ -6,8 +6,8 @@ import styles from "./UsersList.module.css";
 const UsersList = (props) => {
     if (props.items.length === 0) {
         return (
-            <Card>
-                <h2>No users found.</h2>
+            <Card className={styles.users}>
+                <h3>No users found.</h3>
             </Card>
         );
     }
